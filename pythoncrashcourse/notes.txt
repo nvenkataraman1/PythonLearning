@@ -1,0 +1,8 @@
+Data types in Python
+
++ Strings
++ Numbers
+    ++ Integers
+    ++ Float
++ Lists - indicated by [ ]
+    ++ Index positions start at 0, not 1
