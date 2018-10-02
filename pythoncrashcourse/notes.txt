@@ -5,4 +5,5 @@ Data types in Python
     ++ Integers
     ++ Float
 + Lists - indicated by [ ]
-    ++ Index positions start at 0, not 1
+    ++ Index positions start at 0, not 1, special case -1 for last element
+    ++ Functions: append, insert, del, pop, remove, sort, sort(reverse = True), sorted, reverse, len
