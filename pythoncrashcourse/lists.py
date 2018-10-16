@@ -37,3 +37,37 @@ print(bicycles)
 bicycles.sort()
 
 print(bicycles)
+
+## Looping
+
+magicians = ["david", "alice", "carolina"]
+
+for magician in magicians:
+    print(magician)
+
+## range
+
+for value in range(1,5):
+    print(value)
+
+for value in range(2,11,2):
+    print(value)
+
+squares = []
+
+for value in range(1,10):
+    squares.append(value*value)
+
+print(squares)
+
+nums = range(1,100,3)
+
+nums.sort(reverse=True)
+
+print(nums)
+
+print(max(nums))
+
+squares = [value**2 for value in range(1,10)]
+
+print(squares)
