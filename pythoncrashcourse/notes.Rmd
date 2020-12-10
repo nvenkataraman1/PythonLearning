@@ -1,0 +1,41 @@
+---
+title: "Python Crash Course Notes"
+author: "Naveen Venkataraman"
+date: "12/9/2020"
+output: html_document
+---
+
+## Notes from the Python Crash Course Book
+
+### 1. Data types in Python
+
++ Strings
++ Numbers
+    + Integers
+    + Float
++ Lists - initialized by [ ] - equivalent of R vectors
+    + Index positions start at 0, not 1, special case -1 for last element
+    + Functions: append, insert, del, pop, remove, sort, sort(reverse = True), sorted, reverse, len
+    + range, list comprehensions (combine control structures within list declaration syntax)
+    + slicing, looping thru slice
+    + setting list1 = list2 is just a pointer operation, to copy independently, list2 = list1[:] (slice operation)
++ Tuples
+    + Immutable (values cannot change)
+    + Initialized with ( )
++ Dictionaries
+    + Initialized with { }
+    + dictionary_name = {key: value}
+
+### 2. Control structures
++ for loop
+    + syntax:
+        for item in list/tuple:
+            operation
++ if loop
+    + syntax:
+        if condition check:
+            operation
+        elif condition check:
+            operation
+        else:
+            operation
